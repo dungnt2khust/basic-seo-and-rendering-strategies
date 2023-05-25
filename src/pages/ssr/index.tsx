@@ -12,9 +12,9 @@ export default function SSR({postData}: Props) {
 		<div className="container">
 			<BackHome></BackHome>
 			<h1>SSR</h1>
-			<Link className="child-router" href='/ssr/maxage'>s-maxage</Link>
-			<Link className="child-router" href='/ssr/maxage-stale'>s-maxage + stale-white-revalidate</Link>
-			<Link className="child-router" href='/ssr/maxage-stale-value'>s-maxage + stale-white-revalidate-value</Link>
+			<Link className="child-router" href='/ssr/maxage'>s-maxage=5</Link>
+			<Link className="child-router" href='/ssr/maxage-stale'>s-maxage=5, stale-white-revalidate</Link>
+			<Link className="child-router" href='/ssr/maxage-stale-value'>s-maxage=5, stale-white-revalidate=5</Link>
 			<Post postData={postData}></Post>
 		</div>
 	);

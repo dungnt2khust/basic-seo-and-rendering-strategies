@@ -1,5 +1,5 @@
 import { getPost } from "@/apis/components/pose-api";
-import { BackHome, Post } from "@/components";
+import { BackHome, Post, Timer } from "@/components";
 import { post } from "@/models/post";
 import { GetStaticPropsContext } from "next";
 type Props = {
@@ -10,7 +10,8 @@ export default function ISR({postData}: Props) {
 	return (
 		<div className="container">
 			<BackHome></BackHome>
-			<h1>ISR + fallback: blocking</h1>
+            <Timer></Timer>
+			<h1>ISR + revalidate: 10 + fallback: blocking</h1>
 			<Post postData={postData}></Post>
 		</div>
 	);
