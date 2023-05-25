@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "basic-seo-and-rendering-strategies",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "20.2.0",
-    "@types/react": "18.2.6",
+    "@types/node": "20.2.3",
+    "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
-    "next": "13.4.2",
+    "next": "13.4.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.0.4"
