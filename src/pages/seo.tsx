@@ -9,7 +9,7 @@ export default function SEO({}: Props) {
 		title: "SEO trang web của bạn nhanh chóng với chỉ 200k",
 		description: "Chỉ với 200k bạn sẽ đưa trang web của mình lên top 3 và người dùng không thể cưỡng lại mà click vào ngay !!!",
 		domain: "basic-seo-and-rendering-strategies.vercel.app",
-		url: "https://basic-seo-and-rendering-strategies.vercel.app",
+		url: "https://basic-seo-and-rendering-strategies.vercel.app/seo",
 		image: "https://i2-vnexpress.vnecdn.net/2023/05/25/img9870-1685008777817179348867-8081-7648-1685015830.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=AcV_qGgyjlbt-sitijfLhQ"
 	});
 	return (
@@ -32,14 +32,10 @@ export default function SEO({}: Props) {
 				<meta property="og:rich_attachment" content="true"></meta>
 				<meta
 					property="og:description"
-					// @ts-ignore 
-					itemprop="description"
 					content={seoData.description}
 				></meta>
 				<meta
 					property="og:image"
-					// @ts-ignore 
-					itemprop="thumbnailUrl"
 					content={seoData.image}
 				></meta>
 				<meta property="og:image:height" content="354"></meta>
