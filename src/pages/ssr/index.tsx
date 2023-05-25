@@ -21,6 +21,11 @@ export default function SSR({postData}: Props) {
 }
 
 export async function getServerSideProps() {
+	await new Promise((resolve, reject) => {
+		setTimeout(() => {
+			resolve(true);
+		}, 1000);
+	});
 	const res = await getPost("lea11ziflg8xoixq");
 	return {
 		props: {
