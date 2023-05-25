@@ -33,9 +33,11 @@ export default function SEO({}: Props) {
 				></meta>
 				<meta
 					property="og:image"
-					itemprop="thumbnailUrl"
+					// itemprop="thumbnailUrl"
 					content={seoData.image}
 				></meta>
+				<meta property="og:image:height" content="354"></meta>
+				<meta property="og:image:width" content="600"></meta>
 
 				<meta name="twitter:card" content="summary_large_image"></meta>
 				<meta property="twitter:domain" content={seoData.domain}></meta>
