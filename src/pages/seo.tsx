@@ -21,12 +21,15 @@ export default function SEO({}: Props) {
 					content={seoData.description}
 				/>
 				<meta name="robots" content="index,follow"></meta>
+				<meta property="og:site_name" content={seoData.domain}></meta>
 				<meta property="og:url" content={seoData.url}></meta>
-				<meta property="og:type" content="website"></meta>
+				{/* <meta property="og:type" content="website"></meta> */}
+				<meta property="og:type" content="article"></meta>
 				<meta
 					property="og:title"
 					content={seoData.title}
 				></meta>
+				<meta property="og:rich_attachment" content="true"></meta>
 				<meta
 					property="og:description"
 					content={seoData.description}
