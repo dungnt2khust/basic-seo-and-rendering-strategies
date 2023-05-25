@@ -10,7 +10,7 @@ export default function SEO({}: Props) {
 		description: "Chỉ với 200k bạn sẽ đưa trang web của mình lên top 3 và người dùng không thể cưỡng lại mà click vào ngay !!!",
 		domain: "basic-seo-and-rendering-strategies.vercel.app",
 		url: "https://basic-seo-and-rendering-strategies.vercel.app",
-		image: "https://blog.shopline.com.vn/wp-content/uploads/2022/01/a1d39b9944184055866844a5d88fdec3.png"
+		image: "https://hrchannels.com/uptalent/attachments/images/20220107/161241164_SEO-Leader-la-ai-5.jpg"
 	});
 	return (
 		<>
