@@ -1,3 +1,7 @@
 # Allow all crawlers
 User-agent: *
 Allow: /
+Disallow: /isr
+Disallow: /csr
+Disallow: /ssr
+Disallow: /ssg
