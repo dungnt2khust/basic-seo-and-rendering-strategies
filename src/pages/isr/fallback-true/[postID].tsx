@@ -27,7 +27,7 @@ export async function getStaticPaths() {
 		paths: [
 			{params: {postID: "lea11ziflg8xoixq"}}
 		],
-		fallback: false
+		fallback: true
 	}
 }
 
