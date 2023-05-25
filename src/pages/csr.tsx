@@ -1,12 +1,27 @@
-import { BackHome } from '@/components'
-import React from 'react'
+import { getPost } from "@/apis/components/pose-api";
+import { BackHome, Post } from "@/components";
+import { post } from "@/models/post";
+import dynamic from "next/dynamic";
+import React, { useEffect, useState } from "react";
+type Props = {
+};
 
-type Props = {}
 
-export default function CSR({}: Props) {
-  return (<>
-    <BackHome></BackHome>
-    <div>CSR</div>
-  </>
-  )
-}
+const CSR = (props: Props) => {
+	const [postData, setPostData] = useState<post>({});
+	useEffect(() => {
+		getPost("lea11ziflg8xoixq").then((res) => {
+			setPostData(res.data);
+		});
+	}, []);
+
+	return (
+		<div className="container">
+		<BackHome></BackHome>
+			<h1>CSR</h1>
+			<Post postData={postData}></Post>
+		</div>
+)};
+export default dynamic(() => Promise.resolve(CSR), {
+	ssr: false,
+});
