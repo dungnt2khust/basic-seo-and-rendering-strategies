@@ -32,6 +32,8 @@ export default function SEO({}: Props) {
 				<meta property="og:rich_attachment" content="true"></meta>
 				<meta
 					property="og:description"
+					// @ts-ignore 
+					itemprop="description"
 					content={seoData.description}
 				></meta>
 				<meta
