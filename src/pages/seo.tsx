@@ -33,6 +33,7 @@ export default function SEO({}: Props) {
 				></meta>
 				<meta
 					property="og:image"
+					itemprop="thumbnailUrl"
 					content={seoData.image}
 				></meta>
 
