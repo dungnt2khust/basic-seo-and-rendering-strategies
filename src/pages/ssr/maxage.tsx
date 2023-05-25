@@ -11,7 +11,7 @@ export default function SSR({ postData }: Props) {
 	return (
 		<div className="container">
 			<BackHome></BackHome>
-			<h1>SSR</h1>
+			<h1>SSR + s-maxage=5</h1>
 			<Timer></Timer>
 			<Post postData={postData}></Post>
 		</div>
