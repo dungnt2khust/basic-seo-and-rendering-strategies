@@ -33,7 +33,8 @@ export default function SEO({}: Props) {
 				></meta>
 				<meta
 					property="og:image"
-					// itemprop="thumbnailUrl"
+					// @ts-ignore 
+					itemprop="thumbnailUrl"
 					content={seoData.image}
 				></meta>
 				<meta property="og:image:height" content="354"></meta>
