@@ -11,7 +11,9 @@ const CSR = (props: Props) => {
 	const [postData, setPostData] = useState<post>({});
 	useEffect(() => {
 		getPost("lea11ziflg8xoixq").then((res) => {
-			setPostData(res.data);
+			setTimeout(() => {
+				setPostData(res.data);
+			}, 1000);
 		});
 	}, []);
 
