@@ -5,5 +5,9 @@
        <loc>https://basic-seo-and-rendering-strategies.vercel.app</loc>
        <priority>1</priority>
      </url>
+     <url>
+       <loc>https://basic-seo-and-rendering-strategies.vercel.app/not-in-my-web</loc>
+       <priority>0.5</priority>
+     </url>
    </urlset>
    </xml>
