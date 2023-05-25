@@ -43,5 +43,6 @@ export async function getStaticProps(context : GetStaticPropsContext) {
 		props: {
 			postData: res.data
 		},
+		revalidate: 10
 	};
 }
