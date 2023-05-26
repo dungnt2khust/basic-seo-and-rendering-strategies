@@ -24,6 +24,7 @@ export default function Home() {
 					href="https://basic-seo-and-rendering-strategies.vercel.app/sitemap.xml"
 				/>
 				<title>{seoData.title}</title>
+				<meta name="google-site-verification" content="VnZYix1U2Zt9tR6YvZW5CjPQ_WCo_b8iHJMItch0fik" />
 				<meta name="description" content={seoData.description} />
 				<meta name="robots" content="index,follow"></meta>
 				<meta property="og:site_name" content={seoData.domain}></meta>
