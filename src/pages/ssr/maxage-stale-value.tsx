@@ -25,7 +25,7 @@ export async function getServerSideProps(context : GetServerSidePropsContext) {
 			resolve(true);
 		}, 1000);
 	});
-	const res = await getPost("lea11ziflg8xoixq");
+	const res = await getPost("lea11ziflg8xoiye");
 	return {
 		props: {
 			postData: res.data
