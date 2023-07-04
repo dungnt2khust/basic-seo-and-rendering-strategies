@@ -11,17 +11,17 @@ export default function ISR({}: Props) {
 			<h1>ISR </h1>
 			<Link
 				className="child-router"
-				href="/isr/fallback-false/lea11ziflg8xoiye"
+				href="/isr/fallback-false/axP24DD"
 			>
 				fallback:false
 			</Link>
 			<Link
 				className="child-router"
-				href="/isr/fallback-blocking/lea11ziflg8xoiye"
+				href="/isr/fallback-blocking/axP24DD"
 			>
 				fallback:blocking
 			</Link>
-			<Link className="child-router" href="/isr/fallback-true/lea11ziflg8xoiye">
+			<Link className="child-router" href="/isr/fallback-true/axP24DD">
 				fallback:true
 			</Link>
 		</div>

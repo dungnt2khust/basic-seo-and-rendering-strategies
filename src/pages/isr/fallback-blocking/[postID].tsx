@@ -20,7 +20,7 @@ export default function ISR({postData}: Props) {
 export async function getStaticPaths() {
 	return {
 		paths: [
-			{params: {postID: "lea11ziflg8xoiye"}}
+			{params: {postID: "axP24DD"}}
 		],
 		fallback: 'blocking'
 	}

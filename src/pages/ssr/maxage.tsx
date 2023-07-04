@@ -25,7 +25,7 @@ export async function getServerSideProps(context: GetServerSidePropsContext) {
 		}, 1000);
 	});
 	context.res.setHeader("cache-control", "s-maxage=5");
-	const res = await getPost("lea11ziflg8xoiye");
+	const res = await getPost("axP24DD");
 	return {
 		props: {
 			postData: res.data,

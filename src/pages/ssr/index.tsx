@@ -26,7 +26,7 @@ export async function getServerSideProps() {
 			resolve(true);
 		}, 1000);
 	});
-	const res = await getPost("lea11ziflg8xoiye");
+	const res = await getPost("axP24DD");
 	return {
 		props: {
 			postData: res.data

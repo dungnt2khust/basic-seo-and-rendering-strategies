@@ -10,7 +10,7 @@ type Props = {
 const CSR = (props: Props) => {
 	const [postData, setPostData] = useState<post>({});
 	useEffect(() => {
-		getPost("lea11ziflg8xoiye").then((res) => {
+		getPost("axP24DD").then((res) => {
 			setTimeout(() => {
 				setPostData(res.data);
 			}, 1000);

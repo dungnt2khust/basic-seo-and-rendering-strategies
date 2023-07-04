@@ -16,7 +16,7 @@ export default function SSG({postData}: Props) {
 }
 
 export async function getStaticProps() {
-	const res = await getPost("lea11ziflg8xoiye");
+	const res = await getPost("axP24DD");
 	return {
 		props: {
 			postData: res.data
